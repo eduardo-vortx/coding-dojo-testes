@@ -1,4 +1,4 @@
-const fizzBuzz1 = (numero) => {
+const fizzBuzz = (numero) => {
   let result = ''
 
   if (numero % 3 === 0) result += 'Fizz'
@@ -8,14 +8,4 @@ const fizzBuzz1 = (numero) => {
   return result || numero
 }
 
-const fizzBuzz2 = (numero) => {
-  if (numero % 3 == 0 && numero % 5 == 0) return 'FizzBuzz'
-
-  if (numero % 3 == 0) return 'Fizz'
-
-  if (numero % 5 == 0) return 'Buzz'
-
-  return numero
-}
-
-module.exports = { fizzBuzz1, fizzBuzz2 }
+module.exports = { fizzBuzz }

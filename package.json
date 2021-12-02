@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "test": "mocha",
-    "coverage": "nyc --reporter html --reporter text npm test"
+    "coverage": "nyc --reporter html --reporter text npm test",
+    "serve": "npx http-server coverage/"
   },
   "repository": {
     "type": "git",
